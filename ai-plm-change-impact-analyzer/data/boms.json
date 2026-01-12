@@ -1,0 +1,7 @@
+[
+  {
+    "bom_id": "B001",
+    "name": "Assembly A",
+    "parts": ["P001", "P002"]
+  }
+]
