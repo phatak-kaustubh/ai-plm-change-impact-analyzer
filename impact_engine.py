@@ -122,6 +122,7 @@ def analyze_change(part_number):
         "impacted_boms": impacted_boms,
         "impacted_documents": impacted_docs
     }
+from ai_explainer import explain_impact
 
 
 if __name__ == "__main__":
@@ -132,3 +133,7 @@ if __name__ == "__main__":
     print("Reasons:")
     for r in result["impact_reasons"]:
         print("-", r)
+    explanation = explain_impact(result)
+
+    print("\n--- AI Explanation ---\n")
+    print(explanation)
