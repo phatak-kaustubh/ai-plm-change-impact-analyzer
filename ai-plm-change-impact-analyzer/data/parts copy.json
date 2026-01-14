@@ -1,0 +1,12 @@
+[
+  {
+    "part_id": "P001",
+    "name": "Base Plate",
+    "description": "Base plate for assembly"
+  },
+  {
+    "part_id": "P002",
+    "name": "Gear",
+    "description": "Standard gear"
+  }
+]

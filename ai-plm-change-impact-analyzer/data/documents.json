@@ -1,14 +1,8 @@
 [
   {
-    "doc_id": "D001",
+    "doc_id": "D-7001",
     "title": "Base Plate Drawing",
-    "doc_type": "drawing",
-    "related_parts": ["P001"]
-  },
-  {
-    "doc_id": "D002",
-    "title": "Gear Specification",
-    "doc_type": "specification",
-    "related_parts": ["P002"]
+    "doc_type": "Drawing",
+    "related_part": "P-1001"
   }
 ]

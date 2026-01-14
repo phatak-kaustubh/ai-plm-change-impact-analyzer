@@ -1,12 +1,14 @@
 [
   {
-    "part_id": "P001",
+    "part_number": "P-1001",
     "name": "Base Plate",
-    "description": "Base plate for assembly"
+    "revision": "A",
+    "lifecycle": "Released"
   },
   {
-    "part_id": "P002",
-    "name": "Gear",
-    "description": "Standard gear"
+    "part_number": "P-2001",
+    "name": "Bracket",
+    "revision": "B",
+    "lifecycle": "In Work"
   }
 ]

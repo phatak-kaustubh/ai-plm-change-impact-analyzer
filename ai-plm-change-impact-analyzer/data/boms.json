@@ -1,7 +1,10 @@
 [
   {
-    "bom_id": "B001",
-    "name": "Assembly A",
-    "parts": ["P001", "P002"]
+    "bom_id": "B-3001",
+    "parent_part": "A-9001",
+    "items": [
+      { "part_number": "P-1001", "quantity": 2 },
+      { "part_number": "P-2001", "quantity": 1 }
+    ]
   }
 ]
